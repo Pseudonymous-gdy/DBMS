@@ -25,19 +25,6 @@
               "ignoreFailures": true
           }
       ]
-    },
-    {
-      "name": "LLDB Debug active file",
-      "type": "lldb",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "cwd": "${fileDirname}",
-      "args": [],
-      "preLaunchTask": "C/C++: g++.exe build active file",
-      "env": {
-        "PATH": "D:\\msys64\\mingw64\\bin"
-      },
-      "stopOnEntry": true
     }
   ]
 }
